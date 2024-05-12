@@ -1,0 +1,35 @@
+version: 2
+
+sources:
+  - name: airbnb
+    database: airbnb_db
+    schema: raw
+    tables:
+      - name: host
+        identifier: raw_host
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
+          - name: host_id
+            tests:
+              - not_null
+      - name: listings
+        identifier: raw_listings
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
+      - name: reviews
+        identifier: raw_reviews
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
+models:
+  - name: int_listings_joined
+    description: "In this model, I perform data integration from all fact and dimension tables, as well as data imputation for several columns containing missing values, for analysis needs."
+         

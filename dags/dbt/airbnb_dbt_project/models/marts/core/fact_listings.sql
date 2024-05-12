@@ -1,0 +1,51 @@
+WITH fact_listings AS (
+    SELECT 
+        listing_id,
+        accommodates,
+        bathrooms,
+        bedrooms,
+        beds,
+        price_new,
+        minimum_nights,
+	    maximum_nights,
+	    minimum_minimum_nights,
+	    maximum_minimum_nights,
+	    minimum_maximum_nights,
+	    maximum_maximum_nights,
+	    minimum_nights_avg_ntm,
+	    maximum_nights_avg_ntm,
+	    availability_30,
+	    availability_60,
+	    availability_90,
+	    availability_365,
+	    calculated_host_listings_count,
+	    calculated_host_listings_count_entire_homes,
+	    calculated_host_listings_count_private_rooms,
+	    calculated_host_listings_count_shared_rooms
+    FROM {{ ref('int_listings_joined') }}
+)
+
+SELECT 
+    listing_id,
+    accommodates,
+    bathrooms,
+    bedrooms,
+    beds,
+	price_new,
+    minimum_nights,
+	maximum_nights,
+	minimum_minimum_nights,
+	maximum_minimum_nights,
+	minimum_maximum_nights,
+	maximum_maximum_nights,
+	minimum_nights_avg_ntm,
+	maximum_nights_avg_ntm,
+	availability_30,
+	availability_60,
+	availability_90,
+	availability_365,
+	calculated_host_listings_count,
+	calculated_host_listings_count_entire_homes,
+	calculated_host_listings_count_private_rooms,
+	calculated_host_listings_count_shared_rooms
+FROM fact_listings
