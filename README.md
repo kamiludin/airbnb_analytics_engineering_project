@@ -20,8 +20,7 @@ This project showcases the seamless integration of key data engineering and anal
 ## Dataset Used
 1. Airbnb listings in Brisbane, Australia
 2. Website - https://insideairbnb.com/brisbane/
-3. Data Dictionary - https://docs.google.com/spreadsheets/d/1iWCNJcSutYqpULSQHlNyGInUvHg2BoUGoNRIGa6Szc4/
-edit?usp=sharing
+3. Data Dictionary - https://docs.google.com/spreadsheets/d/1iWCNJcSutYqpULSQHlNyGInUvHg2BoUGoNRIGa6Szc4/edit#gid=1322284596
 
 
 ## Article About this Project 
