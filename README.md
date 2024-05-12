@@ -11,10 +11,10 @@ This project showcases the seamless integration of key data engineering and anal
 <img src="data_model.jpg">
 
 ## Directed Acyclic Graph 
-<img src="DAG.jpg">
+<img src="DAG.png">
 
 ## Simple Dashboard
-<img src="Dashboard.jpg">
+<img src="dashboard.jpg">
 
 
 ## Dataset Used
