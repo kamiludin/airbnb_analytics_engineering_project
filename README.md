@@ -11,7 +11,7 @@ This project showcases the seamless integration of key data engineering and anal
 <img src="data_model.jpg">
 
 ## Data Lineage 
-<img src="DAG.png">
+<img src="data_lineage.png">
 
 ## Simple Dashboard
 <img src="dashboard.jpg">
