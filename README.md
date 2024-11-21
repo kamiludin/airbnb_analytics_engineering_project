@@ -10,7 +10,7 @@ This project showcases the seamless integration of key data engineering and anal
 ## Data Modeling 
 <img src="data_model.jpg">
 
-## Directed Acyclic Graph 
+## Data Lineage 
 <img src="DAG.png">
 
 ## Simple Dashboard
